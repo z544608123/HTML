@@ -1,0 +1,24 @@
+1、<input> 元素
+<input> 元素是最重要的表单元素。
+<input> 元素有很多形态，根据不同的 type 属性。
+
+2、
+类型	   描述
+text	   定义常规文本输入。
+radio    定义单选按钮输入（选择多个选择之一）
+submit	 定义提交按钮（提交表单
+
+3、
+如果表单提交是被动的（比如搜索引擎查询），并且没有敏感信息。
+	<form action="action_page.php" method="GET">
+  
+	submit<input type="submit" value="Submit">
+
+当您使用 GET 时，表单数据在页面地址栏中是可见的：
+action_page.php?firstname=Mickey&lastname=Mouse
+注释：GET 最适合少量数据的提交。浏览器会设定容量限制。
+
+4、
+如果表单正在更新数据，或者包含敏感信息（例如密码）。
+POST 的安全性更加，因为在页面地址栏中被提交的数据是不可见的。
+/action_page.php
