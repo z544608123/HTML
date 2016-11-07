@@ -1,0 +1,43 @@
+<!--表单练习-->
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>表单1</title>
+</head>
+
+<body>
+<form action="http://www.baidu.com"><!--只对提交submit有用-->
+用户名 <input type="text" name="user's name" placeholder="input name">
+<br /><br />
+密码 &nbsp;<input type="password" name="password" placeholder="input password">
+<br /><br />
+性别&nbsp;<input type="checkbox" >男
+<br /><br /> 
+&nbsp; &nbsp;
+<input type="checkbox" checked="checked">女
+<br /><br />
+性别&nbsp;<input type="radio" disabled="disabled">男
+<br /><br />
+&nbsp; &nbsp;
+<input type="radio" >女
+<br /><br />
+提交&nbsp;<input type="submit" value="登录">
+<br /><br />
+跳转&nbsp;<input type="button" value="提交">
+<br /><br />
+重置&nbsp;<input type="reset" value="重置"> 
+<select name="abc">
+<option>a</option>
+<option>b</option>
+<option>c</option>
+</select>
+	
+</input>
+</form>
+</body>
+
+</html>
+
+
