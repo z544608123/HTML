@@ -1,0 +1,56 @@
+1、
+<option> 元素定义待选择的选项。
+列表通常会把首个选项显示为被选选项。
+也能通过添加 selected 属性来定义预定义选项。
+
+2、
+<textarea> 元素
+<textarea> 元素定义多行输入字段（文本域）：
+
+3、
+<button> 元素定义可点击的按钮：
+实例
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+4、
+用户会在他们输入数据时看到预定义选项的下拉列表。
+<input> 元素的 list 属性必须引用 <datalist> 元素的 id 属性。
+
+
+<!--下拉列表-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	<form action="action_page.php">
+		<select name="cars">
+		<option>Volvo</option>
+		<option>Saab</option>
+		<option selected>Fiat</option>
+		<option>Audi</option>
+		</select>
+		<br /><br />
+		<input type="submit" value="提交">
+		<br /><br />
+		<textarea name="text" rows="10" cols="30">
+				testing
+		</textarea>
+		<br /><br />
+		<button type="button" onclick="alert('hello world!')">
+		点击	
+		</button>
+		<br /><br />
+		<input list="browsers">
+		<datalist id="browsers">
+		<option value="Internet Explorer">
+		<option value="Firefox">
+		<option value="Chrome">
+		<option value="Opera">
+		<option value="Safari">
+		</datalist>
+		<input type="submit">
+	</form>
+	</body>
+</html>
