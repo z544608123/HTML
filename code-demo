@@ -1,0 +1,26 @@
+在介绍语言技术的网站中，避免不了在网页中显示一些计算机专业的编程代码，当代码为一行代码时，使用<code>标签，如下面例子：
+<code>var i=i+300;</code>
+注意：在文章中一般如果要插入多行代码时不能使用<code>标签了；如果是多行代码，可以使用<pre>标签。
+
+
+语法格式：<code>代码语言</code>
+         <pre>语言代码段</pre>
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>code标签介绍</title>
+</head>
+<body>
+<p>我们可能知道水平渐变的实现，类似这样：<code>{background-image:linear-gradient(left, red 100px, yellow 200px);}</code></p>
+<pre>
+var message="欢迎";
+for(var i=1;i<=10;i++)<br>
+{<br>
+    alert(message); <br>
+}<br>
+</pre>
+</body>
+</html>
