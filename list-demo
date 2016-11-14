@@ -1,0 +1,28 @@
+列表信息
+1、无序列表:ul-li在网页中显示的默认样式一般为：每项li前都自带一个圆点
+<ul>
+<li></li>
+</ul>
+
+2、有序列表:<ol>在网页中显示的默认样式一般为：每项<li>前都自带一个序号，序号默认从1开始
+<ol>
+<li></li>
+</ol>
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> p标签</title>
+</head>
+<body>
+<ul>
+    <li>我的第一个列表信息</li>
+</ul>
+<ol>
+    <li>我的第一个列表信息</li>
+    <li>我的第一个列表信息</li>
+</ol>
+</body>
+</html>
